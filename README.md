@@ -67,15 +67,4 @@ cd recipe-api
 python3 src/main/python/cli.py
 ```
 
-- Start up the recipe finder application
-
-* Open Intellij IDEA,
-* File | New Project from Existing Sources
-    - Select the recipe-finder directory
-    - Select _Import project from existing sources_
-    - Select Maven
-* Create a run configuration to run src/main/java/RecipeFinderApplication
-
-- You can "import" the recipes from the mock api by issuing a GET request to http://localhost:8080/admin/import.
-- You can search for recipes by navigating to http://localhost:8080/recipes
 
